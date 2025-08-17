@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ClamshellEventMonitor}",
+            "name": "Debug ClamshellEventMonitor",
+            "program": "${workspaceFolder:ClamshellEventMonitor}/.build/debug/ClamshellEventMonitor",
+            "preLaunchTask": "swift: Build Debug ClamshellEventMonitor"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ClamshellEventMonitor}",
+            "name": "Release ClamshellEventMonitor",
+            "program": "${workspaceFolder:ClamshellEventMonitor}/.build/release/ClamshellEventMonitor",
+            "preLaunchTask": "swift: Build Release ClamshellEventMonitor"
+        }
+    ]
+}
